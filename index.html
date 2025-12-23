@@ -1,80 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Primary Meta Tags -->
-    <title>ADS Analytics - Análise de Performance de Anúncios | TOPSTACK</title>
-    <meta name="title" content="ADS Analytics - Análise de Performance de Anúncios | TOPSTACK" />
-    <meta name="description" content="Dashboard unificado para análise e comparação de performance de campanhas publicitárias do Meta Ads e Google Ads. Visualize métricas, compare períodos e otimize seus investimentos em marketing digital." />
-    <meta name="keywords" content="analytics, marketing digital, meta ads, google ads, análise de campanhas, performance, dashboard, business intelligence" />
-    <meta name="author" content="TOPSTACK" />
-    <meta name="robots" content="index, follow" />
-    <meta name="language" content="Portuguese" />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.topstack.com.br/" />
-    <meta property="og:title" content="ADS Analytics - Análise de Performance de Anúncios | TOPSTACK" />
-    <meta property="og:description" content="Dashboard unificado para análise e comparação de performance de campanhas publicitárias do Meta Ads e Google Ads." />
-    <meta property="og:image" content="/assets/visual-identity/topstack-og-image-1200x630-cf.png" />
-    <meta property="og:site_name" content="TOPSTACK" />
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://www.topstack.com.br/" />
-    <meta property="twitter:title" content="ADS Analytics - Análise de Performance de Anúncios | TOPSTACK" />
-    <meta property="twitter:description" content="Dashboard unificado para análise e comparação de performance de campanhas publicitárias do Meta Ads e Google Ads." />
-    <meta property="twitter:image" content="/assets/visual-identity/topstack-og-image-1200x630-cf.png" />
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/visual-identity/favicon.ico" />
-    <link rel="icon" type="image/svg+xml" href="/assets/visual-identity/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/visual-identity/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/visual-identity/favicon-96x96.png" />
-    <link rel="manifest" href="/manifest.json" />
-    
-    <!-- Theme Color -->
-    <meta name="theme-color" content="#0ea5e9" />
-    <meta name="msapplication-TileColor" content="#0ea5e9" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              primary: '#0ea5e9', // Sky blue
-              secondary: '#64748b',
-              // Updated Dark Mode Colors: Neutral/Matte Black instead of Blue-ish Slate
-              dark: '#09090b',     // Zinc 950 (Deep matte black/gray)
-              darkCard: '#18181b'  // Zinc 900 (Lighter matte black/gray for cards)
-            }
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta Tags -->
+  <title>ADS Analytics - Análise de Performance de Anúncios | TOPSTACK</title>
+  <meta name="title" content="ADS Analytics - Análise de Performance de Anúncios | TOPSTACK" />
+  <meta name="description"
+    content="Dashboard unificado para análise e comparação de performance de campanhas publicitárias do Meta Ads e Google Ads. Visualize métricas, compare períodos e otimize seus investimentos em marketing digital." />
+  <meta name="keywords"
+    content="analytics, marketing digital, meta ads, google ads, análise de campanhas, performance, dashboard, business intelligence" />
+  <meta name="author" content="TOPSTACK" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="Portuguese" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.topstack.com.br/" />
+  <meta property="og:title" content="ADS Analytics - Análise de Performance de Anúncios | TOPSTACK" />
+  <meta property="og:description"
+    content="Dashboard unificado para análise e comparação de performance de campanhas publicitárias do Meta Ads e Google Ads." />
+  <meta property="og:image" content="/assets/visual-identity/topstack-og-image-1200x630-cf.png" />
+  <meta property="og:site_name" content="TOPSTACK" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.topstack.com.br/" />
+  <meta property="twitter:title" content="ADS Analytics - Análise de Performance de Anúncios | TOPSTACK" />
+  <meta property="twitter:description"
+    content="Dashboard unificado para análise e comparação de performance de campanhas publicitárias do Meta Ads e Google Ads." />
+  <meta property="twitter:image" content="/assets/visual-identity/topstack-og-image-1200x630-cf.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/assets/visual-identity/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="/assets/visual-identity/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/visual-identity/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/visual-identity/favicon-96x96.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#0ea5e9" />
+  <meta name="msapplication-TileColor" content="#0ea5e9" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0ea5e9', // Sky blue
+            secondary: '#64748b',
+            // Updated Dark Mode Colors: Neutral/Matte Black instead of Blue-ish Slate
+            dark: '#09090b',     // Zinc 950 (Deep matte black/gray)
+            darkCard: '#18181b'  // Zinc 900 (Lighter matte black/gray for cards)
           }
         }
       }
-    </script>
-    <style>
-      /* Custom scrollbar for webkit */
-      ::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
-        border-radius: 4px;
-      }
-      .dark ::-webkit-scrollbar-thumb {
-        background: #525252; /* Neutral Gray 600 for dark mode scrollbar */
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #94a3b8;
-      }
-    </style>
+    }
+  </script>
+  <style>
+    /* Custom scrollbar for webkit */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+
+    .dark ::-webkit-scrollbar-thumb {
+      background: #525252;
+      /* Neutral Gray 600 for dark mode scrollbar */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -86,10 +96,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-gray-50 text-gray-900 dark:bg-dark dark:text-gray-100 transition-colors duration-200">
-    <div id="root"></div>
+
+<body class="bg-gray-50 text-gray-900 dark:bg-dark dark:text-gray-100 transition-colors duration-200">
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
