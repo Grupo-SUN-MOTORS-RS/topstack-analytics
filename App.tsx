@@ -180,27 +180,38 @@ const App: React.FC = () => {
       }
     };
 
-    const validateUserRole = async (userSession: any) => {
-      if (!userSession) return false;
-      try {
-        const profilePromise = supabase
-          .from('perfil_de_usuario')
-          .select('cargo')
-          .eq('id', userSession.user.id)
-          .single();
+    const validateUserRole = async (userSession: any, retries = 2): Promise<'allowed' | 'denied' | 'error'> => {
+      if (!userSession) return 'denied';
 
-        // 10 second timeout for the database check
-        const timeoutPromise = new Promise((_, reject) =>
-          setTimeout(() => reject(new Error('timeout')), 10000)
-        );
+      for (let i = 0; i <= retries; i++) {
+        try {
+          const profilePromise = supabase
+            .from('perfil_de_usuario')
+            .select('cargo')
+            .eq('id', userSession.user.id)
+            .single();
 
-        const result = (await Promise.race([profilePromise, timeoutPromise])) as any;
+          const timeoutPromise = new Promise((_, reject) =>
+            setTimeout(() => reject(new Error('timeout')), 10000)
+          );
 
-        const isAllowed = result?.data && allowedRoles.includes(result.data.cargo);
-        return isAllowed;
-      } catch (err) {
-        return false;
+          const result = (await Promise.race([profilePromise, timeoutPromise])) as any;
+
+          if (result?.error) {
+            // Se for um erro real do Supabase (ex: não encontrou registro), é 'denied'
+            if (result.error.code === 'PGRST116') return 'denied';
+            throw result.error; // Caso contrário, joga pro catch para tentar o retry (rede/timeout)
+          }
+
+          const isAllowed = result?.data && allowedRoles.includes(result.data.cargo);
+          return isAllowed ? 'allowed' : 'denied';
+        } catch (err) {
+          if (i === retries) return 'error';
+          // Espera um pouco antes de tentar novamente (backoff simples)
+          await new Promise(res => setTimeout(res, 1000 * (i + 1)));
+        }
       }
+      return 'error';
     };
 
     const runAuthCheck = async () => {
@@ -214,11 +225,14 @@ const App: React.FC = () => {
         const { data: { session: currentSession } } = await supabase.auth.getSession();
 
         if (currentSession) {
-          const isAllowed = await validateUserRole(currentSession);
+          const authResult = await validateUserRole(currentSession);
           if (isMounted) {
             setSession(currentSession);
-            setIsAuthorized(isAllowed);
-            setAuthError(isAllowed ? null : 'Você não tem permissão administrativa suficiente');
+            // Se deu erro de rede, mas temos sessão, deixamos passar no início (ou mostramos erro específico)
+            // Mas se for negado explicitamente, bloqueamos.
+            const allowed = authResult === 'allowed' || authResult === 'error'; // Preferimos deixar passar se for erro de rede no init
+            setIsAuthorized(allowed);
+            setAuthError(authResult === 'denied' ? 'Você não tem permissão administrativa suficiente' : null);
             authCheckCompleted = true;
             stopLoading();
           }
@@ -252,11 +266,18 @@ const App: React.FC = () => {
       }
 
       if (newSession) {
-        const isAllowed = await validateUserRole(newSession);
+        const authResult = await validateUserRole(newSession);
         if (isMounted) {
+          // INTERMITTENCY FIX: Se o evento for apenas um refresh e o check falhar por rede/timeout,
+          // NÃO mudamos o estado de autorização se o usuário já estava autorizado.
+          if (authResult === 'error' && isAuthorized) {
+            setSession(newSession);
+            return;
+          }
+
           setSession(newSession);
-          setIsAuthorized(isAllowed);
-          setAuthError(isAllowed ? null : 'Você não tem permissão administrativa suficiente');
+          setIsAuthorized(authResult === 'allowed');
+          setAuthError(authResult === 'denied' ? 'Você não tem permissão administrativa suficiente' : null);
           authCheckCompleted = true;
           stopLoading();
         }
