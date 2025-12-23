@@ -217,24 +217,39 @@ const App: React.FC = () => {
     const runAuthCheck = async () => {
       const timer = setTimeout(() => {
         if (!authCheckCompleted && isMounted) {
-          handleUnauthorized('Você não tem permissão administrativa suficiente');
+          // Apenas um fallback de segurança se tudo travar por 60s
+          stopLoading();
         }
-      }, 10000);
+      }, 60000);
 
       try {
         const { data: { session: currentSession } } = await supabase.auth.getSession();
 
         if (currentSession) {
-          const authResult = await validateUserRole(currentSession);
-          if (isMounted) {
-            setSession(currentSession);
-            // Se deu erro de rede, mas temos sessão, deixamos passar no início (ou mostramos erro específico)
-            // Mas se for negado explicitamente, bloqueamos.
-            const allowed = authResult === 'allowed' || authResult === 'error'; // Preferimos deixar passar se for erro de rede no init
-            setIsAuthorized(allowed);
-            setAuthError(authResult === 'denied' ? 'Você não tem permissão administrativa suficiente' : null);
-            authCheckCompleted = true;
-            stopLoading();
+          // Verifica se já validamos este usuário nesta sessão do navegador
+          const cachedAuth = sessionStorage.getItem(`auth_${currentSession.user.id}`);
+
+          if (cachedAuth === 'allowed') {
+            if (isMounted) {
+              setSession(currentSession);
+              setIsAuthorized(true);
+              setAuthError(null);
+              authCheckCompleted = true;
+              stopLoading();
+            }
+          } else {
+            const authResult = await validateUserRole(currentSession);
+            if (isMounted) {
+              setSession(currentSession);
+              const allowed = authResult === 'allowed' || authResult === 'error';
+              setIsAuthorized(allowed);
+              if (authResult === 'allowed') {
+                sessionStorage.setItem(`auth_${currentSession.user.id}`, 'allowed');
+              }
+              setAuthError(authResult === 'denied' ? 'Você não tem permissão administrativa suficiente' : null);
+              authCheckCompleted = true;
+              stopLoading();
+            }
           }
         } else {
           if (isMounted) {
@@ -266,17 +281,35 @@ const App: React.FC = () => {
       }
 
       if (newSession) {
+        // 1. Verifica Cache
+        const cachedAuth = sessionStorage.getItem(`auth_${newSession.user.id}`);
+        if (cachedAuth === 'allowed' && isMounted) {
+          setSession(newSession);
+          setIsAuthorized(true);
+          setAuthError(null);
+          return;
+        }
+
+        // 2. Valida no Banco (apenas se não houver cache)
         const authResult = await validateUserRole(newSession);
+
         if (isMounted) {
-          // INTERMITTENCY FIX: Se o evento for apenas um refresh e o check falhar por rede/timeout,
-          // NÃO mudamos o estado de autorização se o usuário já estava autorizado.
+          // Se for erro de rede/timeout e já estávamos autorizados, não bloqueia
           if (authResult === 'error' && isAuthorized) {
             setSession(newSession);
             return;
           }
 
+          // Se for um novo login e deu erro de rede, permitimos passar (resiliência)
+          const finalAllowed = authResult === 'allowed' || (authResult === 'error' && !session);
+
           setSession(newSession);
-          setIsAuthorized(authResult === 'allowed');
+          setIsAuthorized(finalAllowed);
+
+          if (authResult === 'allowed') {
+            sessionStorage.setItem(`auth_${newSession.user.id}`, 'allowed');
+          }
+
           setAuthError(authResult === 'denied' ? 'Você não tem permissão administrativa suficiente' : null);
           authCheckCompleted = true;
           stopLoading();
