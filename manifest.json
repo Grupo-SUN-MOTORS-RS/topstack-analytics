@@ -1,0 +1,22 @@
+{
+  "name": "ADS Analytics - TOPSTACK",
+  "short_name": "ADS Analytics",
+  "description": "Dashboard unificado para análise de performance de campanhas publicitárias",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/assets/visual-identity/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/visual-identity/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
