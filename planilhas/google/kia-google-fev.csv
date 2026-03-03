@@ -1,0 +1,88 @@
+Relatório de campanha
+1 de fevereiro de 2026 - 28 de fevereiro de 2026
+Semana,Status da campanha,Campanha,Orçamento,Nome do orçamento,Tipo de orçamento,Tipo de estratégia de lances,Status,Motivos do status,Tipo de campanha,Código da moeda,Custo,Custo médio,Conversões,Custo / conv.,Impr.,Interações,CPM médio,Taxa de interação,Cliques,CPC méd.
+2026-01-26,Ativada,[PMAX]_sportage,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"20,76","0,12","13,74","1,51",2.931,169,"7,08","5,77%",139,"0,15"
+2026-02-02,Ativada,[PMAX]_sportage,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"117,24","0,09","56,26","2,08",15.069,1.267,"7,78","8,41%",784,"0,15"
+2026-02-09,Ativada,[PMAX]_sportage,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"119,72","0,10","71,98","1,66",13.880,1.219,"8,63","8,78%",759,"0,16"
+2026-02-16,Ativada,[PMAX]_sportage,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"109,76","0,09","73,86","1,49",14.026,1.169,"7,83","8,33%",732,"0,15"
+2026-02-23,Ativada,[PMAX]_sportage,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"89,87","0,08","65,79","1,37",12.700,1.066,"7,08","8,39%",651,"0,14"
+2026-01-26,Ativada,[PMAX]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"23,01","0,12","19,96","1,15",8.295,187,"2,77","2,25%",178,"0,13"
+2026-02-02,Ativada,[PMAX]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"123,71","0,10","67,71","1,83",49.945,1.232,"2,48","2,47%",914,"0,14"
+2026-02-09,Ativada,[PMAX]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"108,97","0,07","37,94","2,87",60.935,1.497,"1,79","2,46%",1.181,"0,09"
+2026-02-16,Ativada,[PMAX]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"118,86","0,15","52,50","2,26",12.462,804,"9,54","6,45%",561,"0,21"
+2026-02-23,Ativada,[PMAX]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Performance Max,BRL,"82,48","0,15","48,49","1,70",8.194,545,"10,07","6,65%",364,"0,23"
+2026-01-26,Pausada,[Pesquisa]_niro,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"11,97","1,00","1,00","11,97",291,12,"41,13","4,12%",12,"1,00"
+2026-02-02,Pausada,[Pesquisa]_niro,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"49,42","0,54","4,00","12,36",3.457,91,"14,30","2,63%",91,"0,54"
+2026-02-09,Pausada,[Pesquisa]_niro,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"40,59","0,56","4,00","10,15",2.221,73,"18,28","3,29%",73,"0,56"
+2026-02-16,Pausada,[Pesquisa]_niro,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"44,56","0,51","3,01","14,80",2.271,88,"19,62","3,87%",88,"0,51"
+2026-02-23,Pausada,[Pesquisa]_niro,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"35,45","0,64","3,00","11,82",965,55,"36,73","5,70%",55,"0,64"
+2026-01-26,Ativada,[Pesquisa]_sportage,"9,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"6,00","0,38","3,00","2,00",481,16,"12,48","3,33%",16,"0,38"
+2026-02-02,Ativada,[Pesquisa]_sportage,"9,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"81,46","0,48","12,50","6,52",5.752,170,"14,16","2,96%",170,"0,48"
+2026-02-09,Ativada,[Pesquisa]_sportage,"9,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"64,44","0,33","12,50","5,16",2.955,197,"21,81","6,67%",197,"0,33"
+2026-02-16,Ativada,[Pesquisa]_sportage,"9,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"50,52","0,33","5,00","10,10",2.712,152,"18,63","5,60%",152,"0,33"
+2026-02-23,Ativada,[Pesquisa]_sportage,"9,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"53,59","0,43","12,00","4,47",2.568,126,"20,87","4,91%",126,"0,43"
+2026-01-26,Ativada,[Pesquisa]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"17,26","1,23","1,00","17,26",226,14,"76,38","6,19%",14,"1,23"
+2026-02-02,Ativada,[Pesquisa]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"106,05","0,85","11,00","9,64",2.958,125,"35,85","4,23%",125,"0,85"
+2026-02-09,Ativada,[Pesquisa]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"100,49","0,82","11,00","9,14",2.770,122,"36,28","4,40%",122,"0,82"
+2026-02-16,Ativada,[Pesquisa]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"126,23","0,71","3,06","41,30",3.522,179,"35,84","5,08%",179,"0,71"
+2026-02-23,Ativada,[Pesquisa]_bongo,"15,00", --,Diário,Maximizar as conversões,Qualificado (limitado),limitado pelo orçamento; desconhecido,Pesquisa,BRL,"97,21","0,77","12,00","8,10",2.767,126,"35,13","4,55%",126,"0,77"
+2026-01-26,Pausada,[Pesquisa]_stonic,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"12,25","0,94","0,00","0,00",347,13,"35,30","3,75%",13,"0,94"
+2026-02-02,Pausada,[Pesquisa]_stonic,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"48,42","0,67","0,00","0,00",1.233,72,"39,27","5,84%",72,"0,67"
+2026-02-09,Pausada,[Pesquisa]_stonic,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"100,91","0,66","0,00","0,00",2.551,152,"39,56","5,96%",152,"0,66"
+2026-02-16,Pausada,[Pesquisa]_stonic,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"79,64","0,72","0,00","0,00",1.929,111,"41,29","5,75%",111,"0,72"
+2026-02-23,Pausada,[Pesquisa]_stonic,"10,00", --,Diário,Maximizar as conversões,Pausado,campanha pausada; desconhecido,Pesquisa,BRL,"29,75","0,52","0,00","0,00",1.863,57,"15,97","3,06%",57,"0,52"
+2026-01-26,Ativada,[Pesquisa]_site,"10,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Pesquisa,BRL,"11,51","0,14","10,00","1,15",369,81,"31,20","21,95%",81,"0,14"
+2026-02-02,Ativada,[Pesquisa]_site,"10,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Pesquisa,BRL,"76,87","0,16","68,50","1,12",2.029,473,"37,89","23,31%",473,"0,16"
+2026-02-09,Ativada,[Pesquisa]_site,"10,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Pesquisa,BRL,"77,63","0,17","62,50","1,24",2.377,446,"32,66","18,76%",446,"0,17"
+2026-02-16,Ativada,[Pesquisa]_site,"10,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Pesquisa,BRL,"71,85","0,14","72,00","1,00",2.693,520,"26,68","19,31%",520,"0,14"
+2026-02-23,Ativada,[Pesquisa]_site,"10,00", --,Diário,Maximizar as conversões,Qualificado,desconhecido,Pesquisa,BRL,"65,83","0,18","62,84","1,05",2.020,367,"32,59","18,17%",367,"0,18"
+ --,Total: Campanhas filtradas, --, --, --, --, --, --,, --,BRL,"2374,32","0,18","882,15","2,69",251.764,12.993,"9,43","5,16%",10.101,"0,24"
+ --,Total: Campanhas filtradas, --, --, --, --, --, --,, --,BRL,0,0,0,0,0,0,0, --,0,0
+ --,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0
+2026-01-26,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0
+2026-02-02,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0
+2026-02-09,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0
+2026-02-16,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0
+2026-02-23,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0
+ --,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0
+2026-01-26,Total: Campanhas filtradas, --, --, --, --, --, --,, --,BRL,"102,76","0,21","48,70","2,11",12.940,492,"7,94","3,80%",453,"0,23"
+2026-02-02,Total: Campanhas filtradas, --, --, --, --, --, --,, --,BRL,"603,19","0,18","219,97","2,74",80.443,3.430,"7,50","4,26%",2.629,"0,23"
+2026-02-09,Total: Campanhas filtradas, --, --, --, --, --, --,, --,BRL,"612,76","0,17","199,92","3,07",87.689,3.706,"6,99","4,23%",2.930,"0,21"
+2026-02-16,Total: Campanhas filtradas, --, --, --, --, --, --,, --,BRL,"601,43","0,20","209,43","2,87",39.615,3.023,"15,18","7,63%",2.343,"0,26"
+2026-02-23,Total: Campanhas filtradas, --, --, --, --, --, --,, --,BRL,"454,18","0,19","204,12","2,23",31.077,2.342,"14,61","7,54%",1.746,"0,26"
+,Total: Conta,,,,,,,,,BRL,"2374,32","0,18","882,15","2,69",251.764,12.993,"9,43","5,16%",10.101,"0,24"
+2026-01-26,Total: Conta,,,,,,,,,BRL,"102,76","0,21","48,70","2,11",12.940,492,"7,94","3,80%",453,"0,23"
+2026-02-09,Total: Conta,,,,,,,,,BRL,"612,76","0,17","199,92","3,07",87.689,3.706,"6,99","4,23%",2.930,"0,21"
+2026-02-16,Total: Conta,,,,,,,,,BRL,"601,43","0,20","209,43","2,87",39.615,3.023,"15,18","7,63%",2.343,"0,26"
+2026-02-23,Total: Conta,,,,,,,,,BRL,"454,18","0,19","204,12","2,23",31.077,2.342,"14,61","7,54%",1.746,"0,26"
+2026-02-02,Total: Conta,,,,,,,,,BRL,"603,19","0,18","219,97","2,74",80.443,3.430,"7,50","4,26%",2.629,"0,23"
+,Total: Inteligente,,,,,,,,Inteligente,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+,Total: Pesquisa,,,,,,,,Pesquisa,BRL,"1459,94","0,38","373,91","3,90",53.327,3.838,"27,38","7,20%",3.838,"0,38"
+,Total: Vídeo,,,,,,,,Vídeo,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+,Total: Performance Max,,,,,,,,Performance Max,BRL,"914,38","0,10","508,24","1,80",198.437,9.155,"4,61","4,61%",6.263,"0,15"
+,Total: Compras,,,,,,,,Compras,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-23,Total: Compras,,,,,,,,Compras,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-16,Total: Compras,,,,,,,,Compras,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-02,Total: Vídeo,,,,,,,,Vídeo,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-23,Total: Vídeo,,,,,,,,Vídeo,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-16,Total: Inteligente,,,,,,,,Inteligente,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-01-26,Total: Pesquisa,,,,,,,,Pesquisa,BRL,"59,00","0,43","15,00","3,93",1.714,136,"34,42","7,93%",136,"0,43"
+2026-01-26,Total: Compras,,,,,,,,Compras,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-02,Total: Performance Max,,,,,,,,Performance Max,BRL,"240,96","0,10","123,98","1,94",65.014,2.499,"3,71","3,84%",1.698,"0,14"
+2026-02-02,Total: Inteligente,,,,,,,,Inteligente,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-16,Total: Pesquisa,,,,,,,,Pesquisa,BRL,"372,80","0,36","83,07","4,49",13.127,1.050,"28,40","8,00%",1.050,"0,36"
+2026-02-16,Total: Vídeo,,,,,,,,Vídeo,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-01-26,Total: Performance Max,,,,,,,,Performance Max,BRL,"43,77","0,12","33,70","1,30",11.226,356,"3,90","3,17%",317,"0,14"
+2026-02-02,Total: Compras,,,,,,,,Compras,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-09,Total: Inteligente,,,,,,,,Inteligente,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-02,Total: Pesquisa,,,,,,,,Pesquisa,BRL,"362,23","0,39","96,00","3,77",15.429,931,"23,48","6,03%",931,"0,39"
+2026-02-16,Total: Performance Max,,,,,,,,Performance Max,BRL,"228,62","0,12","126,36","1,81",26.488,1.973,"8,63","7,45%",1.293,"0,18"
+2026-02-23,Total: Pesquisa,,,,,,,,Pesquisa,BRL,"281,83","0,39","89,84","3,14",10.183,731,"27,68","7,18%",731,"0,39"
+2026-01-26,Total: Vídeo,,,,,,,,Vídeo,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-09,Total: Compras,,,,,,,,Compras,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-23,Total: Inteligente,,,,,,,,Inteligente,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-02-09,Total: Performance Max,,,,,,,,Performance Max,BRL,"228,69","0,08","109,92","2,08",74.815,2.716,"3,06","3,63%",1.940,"0,12"
+2026-02-23,Total: Performance Max,,,,,,,,Performance Max,BRL,"172,34","0,11","114,28","1,51",20.894,1.611,"8,25","7,71%",1.015,"0,17"
+2026-02-09,Total: Pesquisa,,,,,,,,Pesquisa,BRL,"384,07","0,39","90,00","4,27",12.874,990,"29,83","7,69%",990,"0,39"
+2026-02-09,Total: Vídeo,,,,,,,,Vídeo,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
+2026-01-26,Total: Inteligente,,,,,,,,Inteligente,BRL,"0,00",0,"0,00","0,00",0,0,0, --,0,0
