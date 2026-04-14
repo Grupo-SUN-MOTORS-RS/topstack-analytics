@@ -1,0 +1,65 @@
+Relatório de campanha
+1 de março de 2026 - 31 de março de 2026
+Semana,Status da campanha,Campanha,Orçamento,Nome do orçamento,Tipo de orçamento,Código da moeda,Status,Motivos do status,Pontuação de otimização,Tipo de campanha,Custo,Custo médio,Conversões,Custo / conv.,Impr.,Interações,CPM médio,Taxa de interação,Cliques,CPC méd.,Tipo de estratégia de lances,Taxa de conv.
+2026-02-23,Ativada,[PMAX]_dk-160,"25,00", --,Diário,BRL,Qualificado (aprendizado),desconhecido; estratégia de lances com aprendizado em andamento,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-02,Ativada,[PMAX]_dk-160,"25,00", --,Diário,BRL,Qualificado (aprendizado),desconhecido; estratégia de lances com aprendizado em andamento,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-09,Ativada,[PMAX]_dk-160,"25,00", --,Diário,BRL,Qualificado (aprendizado),desconhecido; estratégia de lances com aprendizado em andamento,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-16,Ativada,[PMAX]_dk-160,"25,00", --,Diário,BRL,Qualificado (aprendizado),desconhecido; estratégia de lances com aprendizado em andamento,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-23,Ativada,[PMAX]_dk-160,"25,00", --,Diário,BRL,Qualificado (aprendizado),desconhecido; estratégia de lances com aprendizado em andamento,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-30,Ativada,[PMAX]_dk-160,"25,00", --,Diário,BRL,Qualificado (aprendizado),desconhecido; estratégia de lances com aprendizado em andamento,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-02-23,Ativada,[PMAX]_tactic-400,"10,00", --,Diário,BRL,Qualificado,desconhecido,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-02,Ativada,[PMAX]_tactic-400,"10,00", --,Diário,BRL,Qualificado,desconhecido,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-09,Ativada,[PMAX]_tactic-400,"10,00", --,Diário,BRL,Qualificado,desconhecido,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-16,Ativada,[PMAX]_tactic-400,"10,00", --,Diário,BRL,Qualificado,desconhecido,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-23,Ativada,[PMAX]_tactic-400,"10,00", --,Diário,BRL,Qualificado,desconhecido,"100,00",Performance Max,"0,00",0,"0,00","0,00",0,0,0, --,0,0,Maximizar as conversões,"0,00%"
+2026-03-30,Ativada,[PMAX]_tactic-400,"10,00", --,Diário,BRL,Qualificado,desconhecido,"100,00",Performance Max,"39,42","0,08","6,98","5,65",2.682,525,"14,70","19,57%",123,"0,32",Maximizar as conversões,"1,33%"
+2026-02-23,Ativada,[PMAX]_site,"25,00", --,Diário,BRL,Qualificado (limitado),desconhecido; limitado pelo orçamento,"100,00",Performance Max,"98,52","0,11","57,97","1,70",27.381,857,"3,60","3,13%",856,"0,12",Maximizar as conversões,"6,76%"
+2026-03-02,Ativada,[PMAX]_site,"25,00", --,Diário,BRL,Qualificado (limitado),desconhecido; limitado pelo orçamento,"100,00",Performance Max,"302,82","0,16","130,67","2,32",47.243,1.899,"6,41","4,02%",1.892,"0,16",Maximizar as conversões,"6,88%"
+2026-03-09,Ativada,[PMAX]_site,"25,00", --,Diário,BRL,Qualificado (limitado),desconhecido; limitado pelo orçamento,"100,00",Performance Max,"367,22","0,14","247,00","1,49",38.086,2.680,"9,64","7,04%",2.329,"0,16",Maximizar as conversões,"9,22%"
+2026-03-16,Ativada,[PMAX]_site,"25,00", --,Diário,BRL,Qualificado (limitado),desconhecido; limitado pelo orçamento,"100,00",Performance Max,"324,57","0,14","284,62","1,14",54.020,2.367,"6,01","4,38%",2.308,"0,14",Maximizar as conversões,"12,02%"
+2026-03-23,Ativada,[PMAX]_site,"25,00", --,Diário,BRL,Qualificado (limitado),desconhecido; limitado pelo orçamento,"100,00",Performance Max,"334,87","0,14","220,02","1,52",58.297,2.399,"5,74","4,12%",2.396,"0,14",Maximizar as conversões,"9,17%"
+2026-03-30,Ativada,[PMAX]_site,"25,00", --,Diário,BRL,Qualificado (limitado),desconhecido; limitado pelo orçamento,"100,00",Performance Max,"92,48","0,16","74,15","1,25",10.561,564,"8,76","5,34%",521,"0,18",Maximizar as conversões,"13,15%"
+ --,Total: Campanhas filtradas, --, --, --, --,BRL, --,, --, --,"1559,91","0,14","1.021,41","1,53",238.270,11.291,"6,55","4,74%",10.425,"0,15", --,"9,05%"
+ --,Total: Campanhas filtradas, --, --, --, --,BRL, --,, --, --,0,0,0,0,0,0,0, --,0,0, --, --
+ --,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0, --, --
+2026-02-23,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0, --, --
+2026-03-02,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0, --, --
+2026-03-09,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0, --, --
+2026-03-16,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0, --, --
+2026-03-23,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0, --, --
+2026-03-30,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0, --, --
+ --,Total: Campanhas filtradas, --, --, --, --, --, --,, --, --,0,0,0,0,0,0,0, --,0,0, --, --
+2026-02-23,Total: Campanhas filtradas, --, --, --, --,BRL, --,, --, --,"98,52","0,11","57,97","1,70",27.381,857,"3,60","3,13%",856,"0,12", --,"6,76%"
+2026-03-02,Total: Campanhas filtradas, --, --, --, --,BRL, --,, --, --,"302,82","0,16","130,67","2,32",47.243,1.899,"6,41","4,02%",1.892,"0,16", --,"6,88%"
+2026-03-09,Total: Campanhas filtradas, --, --, --, --,BRL, --,, --, --,"367,22","0,14","247,00","1,49",38.086,2.680,"9,64","7,04%",2.329,"0,16", --,"9,22%"
+2026-03-16,Total: Campanhas filtradas, --, --, --, --,BRL, --,, --, --,"324,57","0,14","284,62","1,14",54.020,2.367,"6,01","4,38%",2.308,"0,14", --,"12,02%"
+2026-03-23,Total: Campanhas filtradas, --, --, --, --,BRL, --,, --, --,"334,87","0,14","220,02","1,52",58.297,2.399,"5,74","4,12%",2.396,"0,14", --,"9,17%"
+2026-03-30,Total: Campanhas filtradas, --, --, --, --,BRL, --,, --, --,"131,90","0,12","81,14","1,63",13.243,1.089,"9,96","8,22%",644,"0,20", --,"7,45%"
+,Total: Conta,,,,,BRL,,,,,"1559,91","0,14","1.021,41","1,53",238.270,11.291,"6,55","4,74%",10.425,"0,15",,"9,05%"
+2026-03-23,Total: Conta,,,,,BRL,,,,,"334,87","0,14","220,02","1,52",58.297,2.399,"5,74","4,12%",2.396,"0,14",,"9,17%"
+2026-03-30,Total: Conta,,,,,BRL,,,,,"131,90","0,12","81,14","1,63",13.243,1.089,"9,96","8,22%",644,"0,20",,"7,45%"
+2026-03-09,Total: Conta,,,,,BRL,,,,,"367,22","0,14","247,00","1,49",38.086,2.680,"9,64","7,04%",2.329,"0,16",,"9,22%"
+2026-03-16,Total: Conta,,,,,BRL,,,,,"324,57","0,14","284,62","1,14",54.020,2.367,"6,01","4,38%",2.308,"0,14",,"12,02%"
+2026-02-23,Total: Conta,,,,,BRL,,,,,"98,52","0,11","57,97","1,70",27.381,857,"3,60","3,13%",856,"0,12",,"6,76%"
+2026-03-02,Total: Conta,,,,,BRL,,,,,"302,82","0,16","130,67","2,32",47.243,1.899,"6,41","4,02%",1.892,"0,16",,"6,88%"
+,Total: Pesquisa,,,,,BRL,,,,Pesquisa,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+,Total: Vídeo,,,,,BRL,,,,Vídeo,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+,Total: Performance Max,,,,,BRL,,,,Performance Max,"1559,91","0,14","1.021,41","1,53",238.270,11.291,"6,55","4,74%",10.425,"0,15",,"9,05%"
+2026-03-09,Total: Pesquisa,,,,,BRL,,,,Pesquisa,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-02-23,Total: Performance Max,,,,,BRL,,,,Performance Max,"98,52","0,11","57,97","1,70",27.381,857,"3,60","3,13%",856,"0,12",,"6,76%"
+2026-03-23,Total: Vídeo,,,,,BRL,,,,Vídeo,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-03-16,Total: Vídeo,,,,,BRL,,,,Vídeo,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-03-30,Total: Pesquisa,,,,,BRL,,,,Pesquisa,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-03-16,Total: Pesquisa,,,,,BRL,,,,Pesquisa,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-03-23,Total: Performance Max,,,,,BRL,,,,Performance Max,"334,87","0,14","220,02","1,52",58.297,2.399,"5,74","4,12%",2.396,"0,14",,"9,17%"
+2026-03-02,Total: Performance Max,,,,,BRL,,,,Performance Max,"302,82","0,16","130,67","2,32",47.243,1.899,"6,41","4,02%",1.892,"0,16",,"6,88%"
+2026-03-09,Total: Performance Max,,,,,BRL,,,,Performance Max,"367,22","0,14","247,00","1,49",38.086,2.680,"9,64","7,04%",2.329,"0,16",,"9,22%"
+2026-03-16,Total: Performance Max,,,,,BRL,,,,Performance Max,"324,57","0,14","284,62","1,14",54.020,2.367,"6,01","4,38%",2.308,"0,14",,"12,02%"
+2026-03-23,Total: Pesquisa,,,,,BRL,,,,Pesquisa,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-03-09,Total: Vídeo,,,,,BRL,,,,Vídeo,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-03-02,Total: Pesquisa,,,,,BRL,,,,Pesquisa,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-02-23,Total: Pesquisa,,,,,BRL,,,,Pesquisa,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-03-02,Total: Vídeo,,,,,BRL,,,,Vídeo,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-03-30,Total: Vídeo,,,,,BRL,,,,Vídeo,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-02-23,Total: Vídeo,,,,,BRL,,,,Vídeo,"0,00",0,"0,00","0,00",0,0,0, --,0,0,,"0,00%"
+2026-03-30,Total: Performance Max,,,,,BRL,,,,Performance Max,"131,90","0,12","81,14","1,63",13.243,1.089,"9,96","8,22%",644,"0,20",,"7,45%"
